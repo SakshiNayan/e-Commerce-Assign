@@ -1,0 +1,15 @@
+/* #row1, #row2{
+    display: flex;
+}
+
+img{
+    width: 50%;
+    height: 200px;
+} */
+.itemcard{
+    display: flex;
+}
+
+#cardBody{
+    display: flex;
+}
