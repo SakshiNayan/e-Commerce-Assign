@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./toprated.css"
+import Header from "./header";
 const  TopRated=()=> {
     const [data, setData]=useState([])
     React.useEffect(() => {
@@ -11,6 +12,7 @@ const  TopRated=()=> {
  
     return (
     <>
+    <Header/>
     {data.map((data)=>{
         return(
             <div id='cardBody'>
